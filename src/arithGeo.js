@@ -8,11 +8,7 @@ module.exports = {
       return 0;
     } else {
       // validate user input
-      for (let i = 0; i <= array.length -1; i++){
-        if (typeof(array[i]) !== 'number' ) {
-          return 'Numbers Only'
-        }
-      }
+      
        // Define Base
       const diff = array[1] - array[0];
       const ratio = array[1] / array[0];
@@ -23,7 +19,9 @@ module.exports = {
 
       // Let's check
       for (let i = 0; i < array.length - 1; i++) {
-        
+        if (typeof(array[i]) !== 'number' ) {
+          return 'Numbers Only'
+        }
         if (array[i + 1] - array[i] !== diff){
           arithmetic = false;
         }
