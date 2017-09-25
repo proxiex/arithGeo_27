@@ -4,7 +4,7 @@ module.exports = {
   aritGeo: (array) => {
     
     // Make sure its not enpty
-    if (array.length < 1 ) {
+    if (array.length < 3 ) {
       return 0;
     } else {
       // validate user input
