@@ -1,0 +1,18 @@
+{
+  "name": "arithgeo",
+  "version": "1.0.0",
+  "description": "A function that check if and array is Geometric or Arithmetic in nature",
+  "main": "src/arithGeo.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.spec.js"
+  },
+  "author": "Samuel Longshak",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
