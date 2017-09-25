@@ -10,7 +10,7 @@ module.exports = {
       // validate user input
       for (let i = 0; i <= array.length -1; i++){
         if (typeof(array[i]) !== 'number' ) {
-          return 'Numbers only'
+          return 'Numbers Only'
         }
       }
        // Define Base
